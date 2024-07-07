@@ -35,6 +35,10 @@
   backface-visibility: hidden;
   @include transition($carousel-transition);
 }
+.carousel-img {
+  height: 500px; /* Set the desired height */
+  object-fit: cover; /* Ensure the image covers the entire area */
+}
 .carousel-item.active,
 .carousel-item-next,
 .carousel-item-prev {
